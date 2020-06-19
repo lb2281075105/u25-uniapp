@@ -106,5 +106,26 @@
     },
     "uniStatistics" : {
         "enable" : false
+    },
+    "h5" : {
+        "title" : "u25-uniapp",
+        "router" : {
+            "mode" : "hash"
+        },
+        "publicPath" : "/",
+        "devServer" : {
+            "port" : 8000,
+            "disableHostCheck" : true,
+            "proxy" : {
+                "/api" : {
+                    "target" : "http://app.u17.com/v3/appV3_3/ios/phone",
+                    "changeOrigin" : true,
+                    "secure" : false,
+                    "pathRewrite":{
+                        "^/api":""
+                      }
+                }
+            }
+        }
     }
 }

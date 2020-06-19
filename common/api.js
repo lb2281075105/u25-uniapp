@@ -1,4 +1,5 @@
-const BASE_URL = 'http://39.106.164.101:80/tt/'
+// const BASE_URL = 'http://app.u17.com/v3/appV3_3/ios/phone'
+const BASE_URL = ''
 
 export const request = (options) => {
     
@@ -10,7 +11,7 @@ export const request = (options) => {
 			dataType:"json",
 			data: options.data || {},
 			success: (response)=>{
-				resolve(response.body);
+				resolve(response);
 			},
 			fail: (error)=>{
 				reject(error);
