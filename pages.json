@@ -33,8 +33,6 @@
 		"backgroundColor": "#F8F8F8"
 	},
 	"tabBar":{
-		"color": "#7A7E83",
-		"selectedColor": "#444444",
 		"borderStyle": "black",
 		"backgroundColor": "#ffffff",
 		"iconWidth":"38px",
