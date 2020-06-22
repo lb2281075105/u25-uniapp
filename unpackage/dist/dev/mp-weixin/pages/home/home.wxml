@@ -1,0 +1,1 @@
+<view class="home"><swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{true}}" indicator-active-color="#FFF"><block wx:for="{{galleryItems}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><swiper-item><image src="{{item.cover}}"></image></swiper-item></block></swiper></view>
